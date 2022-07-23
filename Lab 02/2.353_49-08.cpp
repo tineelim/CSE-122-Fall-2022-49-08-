@@ -1,3 +1,5 @@
+// Problem 158A - Next Round
+
 #include<iostream>
 using namespace std;
 int x, k, a, c=0, n[1000];
