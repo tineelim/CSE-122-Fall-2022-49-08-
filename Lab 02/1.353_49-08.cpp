@@ -18,4 +18,4 @@ while(n--) {
 }
 cout << c << endl;
 }
-Footer
+
