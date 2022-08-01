@@ -1,3 +1,4 @@
+// Problem 263A - Beautiful Matrix
 #include<iostream>
 #include<math.h>
 using namespace std;
