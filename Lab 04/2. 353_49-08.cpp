@@ -1,17 +1,14 @@
 // Problem : 281A Word Capitalization
 
-#include <iostream>
-#include <string.h>
-
+#include<iostream>
 using namespace std;
 
-int main()
-{
-    char s[200];
-    cin >> s;
-    if(s[0]>=97 && s[0]<=122){
-        s[0]=s[0]-32;
-    }
-    cout << s << endl;
+int main(){
+
+    char word[1000];
+    cin>>word;
+    word[0]=toupper(word[0]);
+    cout<<word<<endl;
+
     return 0;
 }
